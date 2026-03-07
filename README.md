@@ -367,6 +367,13 @@ Under active architectural refinement.
 
 Aether WebOS is developed as part of a long-term systems research initiative focused on low-level architecture, networking, and ARM-based computing platforms.
 
+### Maintainers:
+- Aritrash Sarkar (Lead)
+- Adrija Ghosh
+- Ankana Debnath
+- Pritam Mondal
+- Roheet Purkayastha
+
 ---
 
 **Aether WebOS — Built from first principles.**
