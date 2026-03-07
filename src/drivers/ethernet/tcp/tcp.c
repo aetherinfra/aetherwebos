@@ -7,6 +7,7 @@
 #include "drivers/uart.h"
 #include "kernel/timer.h" // For ISN generation
 
+uint32_t tcp_global_isn = 0;
 /* ============================================================
  * GLOBAL TCP STATE
  * ============================================================ */

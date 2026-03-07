@@ -18,11 +18,8 @@ desktop.ini
 # Logs
 *.log
 *.sh
-<<<<<<< HEAD
-
-=======
-*.pdf
->>>>>>> b4434c3 (Update: Enable MMU)
 # --- Toolchain specific ---
 # If you ever generate map files for debugging memory addresses
 *.map
+
+build/
