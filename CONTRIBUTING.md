@@ -101,6 +101,10 @@ Aether WebOS follows a few core principles:
 
 This project is intended as a systems research platform, and thoughtful experimentation is encouraged.
 
+### Note:
+All source files contain a standard header describing origin and
+maintainers. Please update the header only when making significant
+changes to a file.
 ---
 
 ### Thank You
