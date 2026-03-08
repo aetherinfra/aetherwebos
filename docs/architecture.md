@@ -9,20 +9,21 @@ The system is designed with a clear subsystem structure to make experimentation,
 # High-Level Architecture
 
 Aether WebOS consists of several major subsystems:
+```bash
 +------------------------------------------------+
-| Kernel Core |
+| Kernel Core                                    |
 +------------------------------------------------+
-| Memory Management | Interrupts | Scheduler |
+| Memory Management  | Interrupts  | Scheduler   |
 +------------------------------------------------+
-| Drivers (PCIe, UART, VirtIO, USB, Timer) |
+| Drivers (PCIe, UART, VirtIO, USB, Timer)       |
 +------------------------------------------------+
-| Networking Stack (Ethernet → ARP → IPv4 → TCP)|
+| Networking Stack (Ethernet → ARP → IPv4 → TCP) |
 +------------------------------------------------+
-| Kernel UI / Services |
+| Kernel UI / Services                           |
 +------------------------------------------------+
-| Hardware Layer (ARMv8 / QEMU virt platform) |
+| Hardware Layer (ARMv8 / QEMU virt platform)    |
 +------------------------------------------------+
-
+```
 
 The system runs directly on hardware with no underlying operating system.
 
