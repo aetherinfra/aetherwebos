@@ -1,93 +1,63 @@
-# Aether core-maintainers Team
+# Aether Project Team
 
-This document outlines the core roles and responsibilities for the Aether OS development team. Our objective is to build a high-efficiency ARM64 server kernel with a decoupled web-based interface.
+The Aether project is maintained by a small group of core developers responsible for guiding the technical direction of the system and coordinating community contributions.
 
-* * *
+---
 
-## Project Architect
+## Core Maintainers
 
-**Lead:** Aritrash Sarkar
+The **Core Maintainers** team manages the development and growth of the Aether ecosystem.
 
-The Architect is responsible for the "Big Picture" and the fundamental bootstrap of the system.
+Responsibilities include:
 
-*   **Primary Ownership:**
-    
-    *   **Boot Protocol:** Handling the transition from the bootloader to `EL1` (Exception Level 1).
-        
-    *   **System Design:** Defining the kernel's ABI and how different modules (Memory, Drivers) communicate.
-        
-    *   **Exception Vector Table:** Implementing the master table to handle synchronous and asynchronous exceptions (Interrupts/Syscalls).
-        
-*   **Key Deliverables:** `boot.S`, `linker.ld`, and the core `kernel_main` loop.
-    
+- Reviewing and merging pull requests
+- Coordinating contributions from the community
+- Maintaining code quality and architectural consistency
+- Managing issue discussions and development priorities
+- Organizing contributor certificates and recognition
+- Supporting new contributors
+- Managing the project repositories and releases
 
-* * *
+The Core Maintainers team corresponds to the **`core-maintainers` team** within the Aether GitHub organization.
 
-## Memory Mapping Engineer
+---
 
-**Lead:** Ayush Jain
+### Current Core Maintainers
 
-**Focus:** MMU (Memory Management Unit) & Address Spaces
+- **Aritrash** — Lead developer and project architect https://github.com/aritrash
+- **Ankana** — Core maintainer  https://github.com/aankana
+- **Adrija** — Core maintainer  https://github.com/Adrija-Ghosh28
+- **Pritam** — Core maintainer  https://github.com/Pritam598
+- **Roheet** — Core maintainer  https://github.com/RP2005-ai
 
-In ARMv8-A, memory management is significantly more complex than x86 segmentation. This role is responsible for the translation of Virtual Addresses to Physical Addresses.
+Together, the core maintainers coordinate the ongoing development of the Aether platform and ensure that the project remains organized, collaborative, and technically sound.
 
-*   **Primary Ownership:**
-    
-    *   **Translation Tables:** Setting up the 4-level page table structure (L0–L3).
-        
-    *   **Memory Attributes:** Configuring the **MAIR** (Memory Attribute Indirection Register) to define cached (Normal) vs. non-cached (Device) memory.
-        
-    *   **Identity Mapping:** Ensuring the kernel doesn't crash the moment the MMU is enabled by mapping the kernel's physical location to its virtual location.
-        
-*   **Key Deliverables:** `mmu.c`, `paging.S`, and the Page Table Manager.
-    
+---
 
-* * *
+## Community Contributors
 
-## Driver Developer
+Aether is an open-source project and welcomes contributions from developers interested in:
 
-**Lead:** Pritam Mondal
+- operating systems
+- networking stacks
+- hardware drivers
+- ARM architecture
+- low-level systems programming
 
-**Focus:** Hardware Communication (UART & VirtIO)
+If you would like to contribute, please visit the **Issues** tab in the repository to find open tasks or areas where help is needed.
 
-The Driver Dev is the bridge between the software and the bare metal. Without this role, the kernel is "blind and deaf."
+---
 
-*   **Primary Ownership:**
-    
-    *   **PL011 UART:** Implementing a robust serial driver for kernel logging.
-        
-    *   **Generic Interrupt Controller (GIC):** Managing how hardware devices signal the CPU.
-        
-    *   **VirtIO-Net:** (High Priority) Implementing the virtual network interface required to send/receive packets for the Web GUI.
-        
-*   **Key Deliverables:** `uart.c`, `gic.c`, and `virtio_net.c`.
-    
+## Recognition
 
-* * *
+The Aether project recognizes contributions through:
 
-## Web Developer
+- **First-time contributor certificates**
+- **Contributor acknowledgements**
+- **Community recognition for donations and memberships**
 
-**Focus:** The "Portal" (Aether Management Console)
+These initiatives help support and grow the Aether developer community.
 
-The Web Dev is unique in this project: they build the user interface that runs on the _client's_ browser, which communicates with the kernel.
+---
 
-*   **Primary Ownership:**
-    
-    *   **Management Dashboard:** Creating a lightweight, responsive UI (HTML/CSS/JS) to monitor server stats (CPU usage, Memory, Tasks).
-        
-    *   **Protocol Design:** Working with the Driver Dev to define a minimal binary or JSON-like protocol for the kernel to send data to the frontend.
-        
-    *   **Resource Optimization:** Ensuring the GUI assets are small enough to be embedded into the kernel binary or served efficiently.
-        
-*   **Key Deliverables:** `portal/index.html`, `dashboard.js`, and the GUI asset-to-C-header conversion script.
-    
-
-* * *
-
-## Cross-Role Collaboration
-
-| **Collaboration** | **Goal** |
-|-------------------|------------------------------- |
-| Architect + Memory | Defining where the kernel lives vs. where the stacks live. |
-| Memory + Driver | Ensuring MMIO addresses are mapped as "Device Memory" (Non-cacheable). |
-| Driver + Web | Designing the TCP/IP or raw packet bridge to serve the UI. |
+We appreciate everyone who contributes to improving Aether.
