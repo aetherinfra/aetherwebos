@@ -1,3 +1,16 @@
+/*
+ * File: asm_utils.S
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Assembly utilities for the kernel.
+ */
+
 .section ".text"
 
 .global enable_interrupts

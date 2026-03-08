@@ -1,3 +1,16 @@
+/*
+ * File: socket.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Adrija Ghosh
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Socket interface for AETHER WEBOS.
+ */
+
 #ifndef AETHER_SOCKET_H
 #define AETHER_SOCKET_H
 

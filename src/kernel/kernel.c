@@ -1,3 +1,18 @@
+/*
+ * File: kernel.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: February 2026
+ * Updating Developer(s): Ankana Debnath
+ *
+ * Description:
+ * Probably the most important file in the entire codebase.
+ * This is the main kernel entry point for Aether WebOS, responsible for initializing all core subsystems,
+ * setting up the main event loop, and orchestrating the overall system behavior.
+ */
+
 #include "drivers/uart.h"
 #include "common/utils.h"
 #include "kernel/gic.h"

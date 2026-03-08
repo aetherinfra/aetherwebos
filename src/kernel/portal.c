@@ -1,3 +1,17 @@
+/*
+ * File: portal.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Implementation of the Portal subsystem for Aether WebOS, responsible for rendering the main user interface
+ * on the UART console, including a network dashboard and system status display. 
+ */
+
 #include "portal.h"
 #include "drivers/pcie.h"
 #include "kernel/timer.h"

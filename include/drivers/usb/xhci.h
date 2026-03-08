@@ -1,3 +1,16 @@
+/*
+ * File: xhci.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Pritam Mondal
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * xHCI (USB 3.0) Host Controller Driver for AETHER WEBOS.
+ */
+
 #ifndef XHCI_H
 #define XHCI_H
 

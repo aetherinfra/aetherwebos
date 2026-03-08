@@ -1,3 +1,16 @@
+/*
+ * File: arp.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Roheet Purkayastha
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * ARP implementation for AETHER WEBOS.
+ */
+
 #ifndef ARP_H
 #define ARP_H
 

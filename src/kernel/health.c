@@ -1,3 +1,17 @@
+/*
+ * File: health.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Ankana Debnath
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Core implementation of the Health and Telemetry subsystem for Aether WebOS, including
+ * network statistics tracking, TCP connection monitoring, and checksum error reporting.
+ */
+
 #include "kernel/health.h"
 #include "drivers/ethernet/tcp/tcp_internal.h"
 #include "common/utils.h"

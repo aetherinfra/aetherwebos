@@ -1,3 +1,16 @@
+/*
+ * File: mode.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Mode management functions for the kernel.
+ */
+
 #ifndef AETHER_KERNEL_MODE_H
 #define AETHER_KERNEL_MODE_H
 

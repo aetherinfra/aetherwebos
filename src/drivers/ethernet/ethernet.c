@@ -1,3 +1,16 @@
+/*
+ * File: ethernet.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Ethernet frame construction, transmission, and reception handling.
+ */
+
 #include "drivers/ethernet/ethernet.h"
 #include "drivers/uart.h"
 #include "drivers/virtio/virtio_net.h"

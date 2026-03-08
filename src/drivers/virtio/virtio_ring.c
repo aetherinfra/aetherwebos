@@ -1,3 +1,17 @@
+/*
+ * File: virtio_ring.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Roheet Purkayastha
+ *
+ * Last Updated: - February 2026
+ * Updating Developer(s): - Ankana Debnath
+ *
+ * Description:
+ * Core implementation of VirtIO ring management for Aether WebOS, including descriptor handling,
+ * queue initialization, and notification logic. 
+ */
+
 #include "drivers/virtio/virtio_ring.h"
 #include "drivers/virtio/virtio_pci.h"
 #include "drivers/virtio/virtio_net.h"

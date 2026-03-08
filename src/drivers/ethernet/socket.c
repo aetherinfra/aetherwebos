@@ -1,3 +1,17 @@
+/*
+ * File: socket.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Adrija Ghosh
+ *
+ * Last Updated: - February 2026
+ * Updating Developer(s): - Aritrash Sarkar
+ *
+ * Description:
+ * Basic socket-like dispatch mechanism for incoming TCP data, 
+ * with a simple HTTP response example. 
+ */
+
 #include <stdint.h>
 #include <stddef.h>
 

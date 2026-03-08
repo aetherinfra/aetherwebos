@@ -1,3 +1,17 @@
+/*
+ * File: timer.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Core implementation of the ARM Generic Timer for Aether WebOS, including initialization,
+ * interrupt handling, and uptime tracking. 
+ */
+
 #include "utils.h"
 #include "timer.h"
 

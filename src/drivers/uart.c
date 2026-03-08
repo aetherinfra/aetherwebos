@@ -1,3 +1,17 @@
+/*
+ * File: uart.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Pritam Mondal
+ *
+ * Last Updated: February 2026
+ * Updating Developer(s): Aritrash Sarkar
+ *
+ * Description:
+ * Core implementation of the PL011 UART driver for Aether WebOS, including initialization,
+ * transmission, and reception logic.
+ */
+
 #include "uart.h"
 #include "config.h"
 #include "kernel/mode.h"

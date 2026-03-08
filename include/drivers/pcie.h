@@ -1,3 +1,16 @@
+/*
+ * File: pcie.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Definitions for PCIe device enumeration, configuration space access, and driver registration.
+ */
+
 #ifndef PCIE_H
 #define PCIE_H
 

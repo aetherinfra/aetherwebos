@@ -1,3 +1,16 @@
+/*
+ * File: virtio_pci.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Definitions for VirtIO PCI capabilities and device structure.
+ */
+
 #ifndef VIRTIO_PCI_H
 #define VIRTIO_PCI_H
 

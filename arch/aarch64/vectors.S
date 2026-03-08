@@ -1,4 +1,16 @@
-/* src/vectors.S */
+/* 
+ * File: vectors.S
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * exception vector table.
+*/
+
 .section ".vectors", "ax"
 
 // --- THE MISSING LINKER PIECE ---

@@ -1,3 +1,16 @@
+/*
+ * File: utils.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: - February 2026
+ * Updating Developer(s): - Ankana Debnath
+ *
+ * Description:
+ * Utility functions for string manipulation and memory operations.
+ */
+
 #include "utils.h"
 #include "uart.h"
 #include <stddef.h>

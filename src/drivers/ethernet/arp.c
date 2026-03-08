@@ -1,3 +1,16 @@
+/*
+ * File: arp.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Roheet Purkaystha
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * ARP packet handling and cache management. Responds to ARP requests and learns sender information.
+ */
+
 #include "ethernet/arp.h"
 #include "drivers/virtio/virtio_net.h"
 #include "ethernet/ethernet.h"

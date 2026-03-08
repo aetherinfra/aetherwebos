@@ -1,3 +1,16 @@
+/*
+ * File: io.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: - February 2026
+ * Updating Developer(s): - Adrija Ghosh
+ *
+ * Description:
+ * Memory management functions for kernel heap and I/O remapping.
+ */
+
 #ifndef MEMORY_H
 #define MEMORY_H
 

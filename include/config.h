@@ -1,3 +1,16 @@
+/*
+ * File: config.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Configuration constants for the kernel.
+ */
+
 #ifndef CONFIG_H
 #define CONFIG_H
 

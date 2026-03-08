@@ -1,3 +1,16 @@
+/*
+ * File: tcp_checksum.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * TCP checksum calculation and validation functions, including the IPv4 pseudo-header.
+ */
+
 #include <stdint.h>
 #include <stddef.h>
 #include "drivers/ethernet/tcp/tcp_internal.h"

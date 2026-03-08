@@ -1,3 +1,16 @@
+/*
+ * File: tcp.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Roheet Purkaystha
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * TCP connection management and state machine implementation.
+ */
+
 #include <stdint.h>
 #include <stddef.h>
 

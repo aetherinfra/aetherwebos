@@ -1,3 +1,16 @@
+/*
+ * File: psci.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Core implementation of the PSCI (Power State Coordination Interface) for Aether WebOS.
+ */
+
 #include "drivers/psci.h"
 #include "drivers/uart.h"
 

@@ -1,3 +1,16 @@
+/*
+ * File: ethernet.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Ethernet layer definitions and API for AETHER WEBOS. 
+ */
+
 #ifndef ETHERNET_H
 #define ETHERNET_H
 

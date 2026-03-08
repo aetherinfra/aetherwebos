@@ -1,3 +1,17 @@
+/*
+ * File: virtio_pci.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * PCIe transport layer for VirtIO devices in Aether WebOS, including capability parsing,
+ * memory mapping, and device reset functionality.
+ */
+
 #include "drivers/virtio/virtio_pci.h"
 #include "drivers/virtio/virtio_net.h"
 #include "drivers/pcie.h"

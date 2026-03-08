@@ -1,3 +1,16 @@
+/*
+ * File: portal.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Portal interface functions for handling user interactions and system state.
+ */
+
 #ifndef PORTAL_H
 #define PORTAL_H
 

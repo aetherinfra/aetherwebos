@@ -1,3 +1,16 @@
+/*
+ * File: tcp_internal.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Internal TCP implementation details.
+ */
+
 #ifndef AETHER_TCP_INTERNAL_H
 #define AETHER_TCP_INTERNAL_H
 

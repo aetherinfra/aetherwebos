@@ -1,3 +1,17 @@
+
+/*
+ * File: mmu.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * This file implements the MMU initialization and page table setup for AETHER WEBOS on AArch64.
+ */
+
 #include "mmu.h"
 #include "uart.h"
 #include "pcie.h"

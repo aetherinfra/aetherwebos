@@ -1,3 +1,17 @@
+/*
+ * File: virtio_net.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: - February 2026
+ * Updating Developer(s): - Pritam Mondal
+ *
+ * Description:
+ * VirtIO-Net driver implementation for Aether WebOS, including PCIe initialization,
+ * feature negotiation, queue setup, and packet handling.
+ */
+
 #include "drivers/virtio/virtio_net.h"
 #include "drivers/virtio/virtio_pci.h"
 #include "drivers/virtio/virtio_ring.h"

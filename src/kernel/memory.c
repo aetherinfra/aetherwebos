@@ -1,3 +1,17 @@
+/*
+ * File: memory.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Core implementation of the Memory Management subsystem for Aether WebOS, including a simple
+ * kmalloc/kfree allocator for dynamic memory management and an ioremap function for MMIO device access.
+ */
+
 #include "kernel/memory.h"
 #include "mmu.h"
 #include "uart.h"

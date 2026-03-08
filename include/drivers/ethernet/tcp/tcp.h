@@ -1,3 +1,16 @@
+/*
+ * File: tcp.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: March 2026
+ * Updating Developer(s): Roheet Purkayastha
+ *
+ * Description:
+ * TCP interface for AETHER WEBOS.
+ */
+
 #ifndef AETHER_TCP_H
 #define AETHER_TCP_H
 

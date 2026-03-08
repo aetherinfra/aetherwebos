@@ -1,3 +1,16 @@
+/*
+ * File: io.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * I/O access functions for memory-mapped registers.
+ */
+
 #ifndef IO_H
 #define IO_H
 

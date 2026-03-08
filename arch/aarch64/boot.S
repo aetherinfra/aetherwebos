@@ -1,3 +1,17 @@
+/* 
+ * File: boot.S
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * AArch64 kernel entry point and early CPU initialization.
+*/
+
+
 .section ".text.boot"
 .global _start
 

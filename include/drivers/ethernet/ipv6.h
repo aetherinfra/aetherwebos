@@ -1,3 +1,16 @@
+/*
+ * File: ipv6.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Adrija Ghosh
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * IPv6 implementation for AETHER WEBOS.
+ */
+
 #ifndef IPV6_H
 #define IPV6_H
 

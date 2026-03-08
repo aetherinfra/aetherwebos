@@ -1,3 +1,16 @@
+/*
+ * File: pcie.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Core PCIe enumeration and driver initialization logic for Aether WebOS. 
+ */
+
 #include "pcie.h"
 #include "uart.h"
 #include "config.h"

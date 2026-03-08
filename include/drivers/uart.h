@@ -1,3 +1,19 @@
+/*
+ * File: uart.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: - February 2026
+ * Updating Developer(s): - Pritam Mondal
+ *
+ * Description:
+ * Definitions for UART initialization and basic I/O functions. This header 
+ * abstracts the differences between the Raspberry Pi 4's PL011 UART and the 
+ * QEMU 'virt' board's PL011 implementation, allowing for a unified interface 
+ * for serial communication across both platforms.
+ */
+
 #ifndef UART_H
 #define UART_H
 

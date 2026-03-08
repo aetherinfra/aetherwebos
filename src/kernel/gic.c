@@ -1,3 +1,17 @@
+/*
+ * File: gic.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Core implementation of the ARM Generic Interrupt Controller (GIC) for Aether WebOS, 
+ * including initialization and configuration for both GICv2 (Raspberry Pi 4) and GICv
+ */
+
 #include "gic.h"
 #include "config.h"
 #include "uart.h"

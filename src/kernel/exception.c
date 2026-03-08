@@ -1,3 +1,17 @@
+/*
+ * File: exception.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Core exception handling logic for Aether WebOS, including synchronous exceptions (e.g., data aborts)
+ * and IRQ handling. 
+ */
+
 #include "uart.h"
 #include "utils.h"
 #include "gic.h"

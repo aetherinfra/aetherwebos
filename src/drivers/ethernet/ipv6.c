@@ -1,3 +1,17 @@
+/*
+ * File: ipv6.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Adrija Ghosh
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * IPv6 packet parsing and basic handling logic, including source/destination 
+ * address extraction and next header identification.
+ */
+
 #include <stdint.h>
 #include "drivers/ethernet/ipv6.h"
 #include "drivers/uart.h"

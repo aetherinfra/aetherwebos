@@ -1,3 +1,17 @@
+/*
+ * File: tcp_input.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * TCP segment processing logic, including header parsing, checksum validation, 
+ * TCB lookup, and state machine handling for incoming segments.
+ */
+
 #include <stdint.h>
 #include <stddef.h>
 

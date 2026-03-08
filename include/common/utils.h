@@ -1,3 +1,16 @@
+/*
+ * File: utils.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: March 2026
+ * Updating Developer(s): Roheet Purkayastha
+ *
+ * Description:
+ * Utility functions for AETHER WEBOS.
+ */
+
 #ifndef UTILS_H
 #define UTILS_H
 

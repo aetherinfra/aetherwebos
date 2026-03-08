@@ -1,3 +1,16 @@
+/*
+ * File: health.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Ankana Debnath
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Health monitoring functions for network statistics.
+ */
+
 #ifndef HEALTH_H
 #define HEALTH_H
 

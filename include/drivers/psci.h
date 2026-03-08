@@ -1,3 +1,16 @@
+/*
+ * File: psci.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * PSCI function declarations for ARMv8.
+ */
+
 #ifndef PSCI_H
 #define PSCI_H
 

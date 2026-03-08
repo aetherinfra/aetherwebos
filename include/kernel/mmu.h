@@ -1,3 +1,16 @@
+/*
+ * File: mmu.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * MMU initialization and memory management functions.
+ */
+
 #ifndef MMU_H
 #define MMU_H
 

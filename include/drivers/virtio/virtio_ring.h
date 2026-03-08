@@ -1,3 +1,16 @@
+/*
+ * File: virtio_ring.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Roheet Purkayastha
+ *
+ * Last Updated: - March 2026
+ * Updating Developer(s): - Aritrash Sarkar, Ankana Debnath
+ *
+ * Description:
+ * Definitions for VirtIO Ring structures and helper functions to manage the descriptor tables and rings.
+ */
+
 #ifndef VIRTIO_RING_H
 #define VIRTIO_RING_H
 

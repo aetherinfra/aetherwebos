@@ -1,4 +1,6 @@
-# AETHER OS Restoration Makefile - Windows-Friendly Edition
+# AETHER WebOS  Makefile 
+# This Makefile is designed to build Aether WebOS for both the QEMU Virt platform and the Raspberry Pi 4B.
+# Lead Developer: Aritrash Sarkar (@aritrash)
 CC = aarch64-none-elf-gcc
 LD = aarch64-none-elf-ld
 OBJCOPY = aarch64-none-elf-objcopy

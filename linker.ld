@@ -1,3 +1,16 @@
+/*
+ * File: linker.ld
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Linker file for compilation of the OS.
+ */
+
 SECTIONS
 {
     . = KERNEL_START;     

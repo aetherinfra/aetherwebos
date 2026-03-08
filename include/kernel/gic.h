@@ -1,3 +1,16 @@
+/*
+ * File: gic.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * Definitions for GIC initialization and interrupt handling.
+ */
+
 #ifndef GIC_H
 #define GIC_H
 

@@ -1,4 +1,4 @@
-# Aether Special Ops Team
+# Aether core-maintainers Team
 
 This document outlines the core roles and responsibilities for the Aether OS development team. Our objective is to build a high-efficiency ARM64 server kernel with a decoupled web-based interface.
 

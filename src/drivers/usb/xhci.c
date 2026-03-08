@@ -1,3 +1,17 @@
+/*
+ * File: xhci.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Pritam Mondal
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * xHCI (USB 3.0) controller initialization, including PCIe BAR resolution, 
+ * BIOS ownership handshake, and controller reset sequence.
+ */
+
 #include "drivers/usb/xhci.h"
 #include "drivers/pcie.h"
 #include "kernel/memory.h"

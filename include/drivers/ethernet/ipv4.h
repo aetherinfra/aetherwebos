@@ -1,3 +1,16 @@
+/*
+ * File: ipv4.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Pritam Mondal
+ *
+ * Last Updated: March 2026
+ * Updating Developer(s): Aritrash Sarkar
+ *
+ * Description:
+ * IPv4 implementation for AETHER WEBOS.
+ */
+
 #ifndef AETHER_IPV4_H
 #define AETHER_IPV4_H
 

@@ -1,3 +1,16 @@
+/*
+ * File: virtio_net.h
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: February 2026
+ * Updating Developer(s): Pritam Mondal
+ *
+ * Description:
+ * Definitions for VirtIO Network Device, including PCI capabilities, device configuration, and network headers.
+ */
+
 #ifndef VIRTIO_NET_H
 #define VIRTIO_NET_H
 

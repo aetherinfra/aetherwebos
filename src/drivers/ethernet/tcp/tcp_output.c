@@ -1,3 +1,17 @@
+/*
+ * File: tcp_output.c
+ *
+ * First Version: February 2026
+ * Lead Developer: Aritrash Sarkar
+ *
+ * Last Updated: -
+ * Updating Developer(s): -
+ *
+ * Description:
+ * TCP segment construction and transmission logic, including header assembly, 
+ * checksum calculation, and interaction with the IPv4 layer for sending segments. 
+ */
+
 #include <stdint.h>
 #include <stddef.h>
 #include "ethernet/ipv4.h"
