@@ -40,7 +40,7 @@ git checkout -b feature/my-change
 Commit your changes:
 
 ```bash
-git commit -m "Add PS/2 keyboard driver initialization"
+git commit -m "[ADD] Add PS/2 keyboard driver initialization"
 ```
 
 Push your branch and open a Pull Request.
