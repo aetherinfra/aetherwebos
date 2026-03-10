@@ -60,6 +60,22 @@ Aether WebOS aims to keep the codebase simple and readable.
 - Avoid unnecessary abstraction
 - If you are unsure about an architectural change, open an issue to discuss it first.
 
+### Commit Guidelines:
+
+- Standard Header Format: Use the required prefix: [KEYWORD] Commit Description.
+    - [ADD]: New features, drivers, or modules.
+    - [FIX]: Bug fixes or logic corrections.
+    - [UPDATE]: Refactoring, optimization, or documentation changes.
+    - [REMOVE]: Deprecating or deleting code/assets.
+
+- Atomic Commits: Keep commits small and focused. Do not mix a [FIX] for a memory leak with an [ADD] for a new UI component in the same commit.
+- Imperative Mood: Write the description as a command to the codebase (e.g., use [ADD] Initialize UART instead of [ADD] Added UART initialization).
+- Specify Scope: Whenever possible, mention the layer being touched.
+    - Example: [ADD] kernel/mm: Implement heap allocator
+    - Example: [FIX] webui/css: Fix navbar overflow on mobile
+- Build-Check Rule: Never commit code that doesn't compile. If a feature is halfway done but breaks the build, keep it in a local branch.
+- Descriptive, Not Vague: Avoid generic messages like [UPDATE] internal changes or [FIX] bugs. If a recruiter looks at your repo, the commit history should read like a professional roadmap.
+
 ### Areas Where Contributions Are Welcome
 
 Current areas of interest include:
